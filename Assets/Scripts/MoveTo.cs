@@ -24,8 +24,8 @@ public class MoveTo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        detectCollider = GetComponent<SphereCollider>();
-        detectCollider.radius = ChaseStartDistance;
+        //detectCollider = GetComponent<SphereCollider>();
+        //detectCollider.radius = ChaseStartDistance;
         agent = GetComponent<NavMeshAgent>();
         agent.speed = regularSpeed;
     }
@@ -61,7 +61,7 @@ public class MoveTo : MonoBehaviour
         agent.SetDestination(targetDestination.position);
 
     }
-
+    /*
     //if the player is near, begin chase
     private void OnTriggerEnter(Collider other)
     {
@@ -91,4 +91,5 @@ public class MoveTo : MonoBehaviour
             Gizmos.DrawWireCube(t.position, Vector3.one);
         }
     }
+    */
 }
