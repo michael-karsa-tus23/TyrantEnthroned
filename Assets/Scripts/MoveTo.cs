@@ -9,7 +9,7 @@ public class MoveTo : MonoBehaviour
     public List<Transform> patrolArea = new List<Transform>();
     private Transform targetDestination;
     private int patrolPoint = 0;
-    private SphereCollider detectCollider;
+    public MeshCollider detectCollider;
     public bool chase = false;
     public float regularSpeed;
 
@@ -24,8 +24,7 @@ public class MoveTo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //detectCollider = GetComponent<SphereCollider>();
-        //detectCollider.radius = ChaseStartDistance;
+        detectCollider = transform.Find("LightCollider").GetComponent<MeshCollider>();
         agent = GetComponent<NavMeshAgent>();
         agent.speed = regularSpeed;
     }
@@ -65,24 +64,25 @@ public class MoveTo : MonoBehaviour
     //if the player is near, begin chase
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<CharacterController>() != null)
+        if (other.GetComponent<Rigidbody>() != null)
         {
             chaseTarget = other.gameObject;
             chase = true;
-            detectCollider.radius = ChaseGiveUpDistance;
+            //detectCollider.radius = ChaseGiveUpDistance;
             agent.speed = ChaseSpeed;
         }
     }
     //if the player is too far, give up
     private void OnTriggerExit(Collider other)
     {
-        if (other.GetComponent<CharacterController>() != null)
+        if (other.GetComponent<Rigidbody>() != null)
         {
             chase = false;
-            detectCollider.radius = ChaseStartDistance;
+            //detectCollider.radius = ChaseStartDistance;
             agent.speed = regularSpeed;
         }
     }
+    */
 
     private void OnDrawGizmos()
     {
@@ -91,5 +91,4 @@ public class MoveTo : MonoBehaviour
             Gizmos.DrawWireCube(t.position, Vector3.one);
         }
     }
-    */
 }
