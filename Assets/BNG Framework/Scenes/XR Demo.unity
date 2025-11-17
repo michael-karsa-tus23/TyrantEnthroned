@@ -33955,7 +33955,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 356154278}
+  m_Mesh: {fileID: 1045667307}
 --- !u!33 &417842588
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -74679,7 +74679,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1531494046}
+  m_Mesh: {fileID: 785326196}
 --- !u!33 &885299850
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -97715,7 +97715,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1120828975}
+  m_Mesh: {fileID: 921871140}
 --- !u!33 &1163953870
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -107834,7 +107834,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1341519962}
+  m_Mesh: {fileID: 399303889}
 --- !u!33 &1278127071
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -147393,7 +147393,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 328536767}
+  m_Mesh: {fileID: 475301813}
 --- !u!33 &1756052783
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -185844,7 +185844,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2038124951}
+  m_Mesh: {fileID: 356154278}
 --- !u!33 &2029139663
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -186249,7 +186249,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 356154278}
+  m_Mesh: {fileID: 1818481739}
 --- !u!33 &2031870266
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -190121,7 +190121,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1120828975}
+  m_Mesh: {fileID: 1015679210}
 --- !u!33 &2073164853
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -193141,7 +193141,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1015679210}
+  m_Mesh: {fileID: 747283799}
 --- !u!33 &2099245808
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -194612,6 +194612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Truck
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512391818188800215, guid: 6a31af6daaf9f304cab2b9fab23909d3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8326396243830695889, guid: 6a31af6daaf9f304cab2b9fab23909d3,
         type: 3}
