@@ -84,6 +84,14 @@ public class MoveTo : MonoBehaviour
     }
     */
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            collision.transform.position = collision.gameObject.GetComponent<Checkpoints>().lastCheckpoint.transform.position;
+        }
+    }
+
     private void OnDrawGizmos()
     {
         foreach (Transform t in patrolArea)
