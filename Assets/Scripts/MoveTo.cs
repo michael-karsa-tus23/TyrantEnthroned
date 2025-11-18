@@ -86,8 +86,9 @@ public class MoveTo : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.GetComponent<Rigidbody>() != null)
         {
+            Debug.Log("I hit the player, TELEPORT THEMMMMM");
             collision.transform.position = collision.gameObject.GetComponent<Checkpoints>().lastCheckpoint.transform.position;
         }
     }
