@@ -253430,21 +253430,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 869156532353306570, guid: 2ffa15e26f927494b9f15254be59c565,
-        type: 3}
-      propertyPath: m_Radius
-      value: 4.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 869156532353306570, guid: 2ffa15e26f927494b9f15254be59c565,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 2.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 869156532353306570, guid: 2ffa15e26f927494b9f15254be59c565,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -2.41
-      objectReference: {fileID: 0}
     - target: {fileID: 2721973873705479648, guid: 2ffa15e26f927494b9f15254be59c565,
         type: 3}
       propertyPath: m_LocalPosition.x
