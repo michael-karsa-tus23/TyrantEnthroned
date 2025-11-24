@@ -27,7 +27,6 @@ public class LightDetect : MonoBehaviour
             moveTo.chaseTarget = other.gameObject;
             moveTo.chase = true;
             //detectCollider.radius = ChaseGiveUpDistance;
-            agent.speed = moveTo.ChaseSpeed;
         }
     }/*
     //if the player is too far, give up

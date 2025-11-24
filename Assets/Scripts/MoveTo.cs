@@ -35,6 +35,7 @@ public class MoveTo : MonoBehaviour
         //patrol
         if (chase)
         {
+            agent.speed = ChaseSpeed;
             targetDestination = chaseTarget.transform;    //if the enemy is chasing, their destination is the player
 
             //if the enemy is chasing for too long, it will give up
@@ -47,6 +48,7 @@ public class MoveTo : MonoBehaviour
         }
         else    //otherwise, just patrol around the area
         {
+            agent.speed = regularSpeed;
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
             {
                 patrolPoint++;
