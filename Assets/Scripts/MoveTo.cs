@@ -83,13 +83,13 @@ public class MoveTo : MonoBehaviour
         }
     }
     */
-
+    
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.GetComponent<Rigidbody>() != null)
         {
+            chase = false;
             Debug.Log("I hit the player, TELEPORT THEMMMMM");
-            collision.gameObject.transform.parent.localPosition = collision.gameObject.GetComponent<Checkpoints>().lastCheckpoint.transform.position;
         }
     }
 
