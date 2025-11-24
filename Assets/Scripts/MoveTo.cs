@@ -89,7 +89,7 @@ public class MoveTo : MonoBehaviour
         if (collision.gameObject.GetComponent<Rigidbody>() != null)
         {
             Debug.Log("I hit the player, TELEPORT THEMMMMM");
-            collision.gameObject.transform.parent.position = collision.gameObject.GetComponent<Checkpoints>().lastCheckpoint.transform.position;
+            collision.gameObject.transform.parent.localPosition = collision.gameObject.GetComponent<Checkpoints>().lastCheckpoint.transform.position;
         }
     }
 
