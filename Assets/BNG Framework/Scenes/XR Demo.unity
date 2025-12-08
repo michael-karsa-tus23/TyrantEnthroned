@@ -9295,7 +9295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &71213520
 Transform:
   m_ObjectHideFlags: 0
@@ -9305,7 +9305,7 @@ Transform:
   m_GameObject: {fileID: 71213519}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.009102, y: -6.74, z: -0.46616364}
+  m_LocalPosition: {x: 22.009102, y: -6.72, z: -0.46616364}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101175,7 +101175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &885299847
 Transform:
   m_ObjectHideFlags: 0
@@ -101185,7 +101185,7 @@ Transform:
   m_GameObject: {fileID: 885299846}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 60.4, y: -6.7748203, z: -0.46616364}
+  m_LocalPosition: {x: 60.4, y: -6.74, z: -0.46616364}
   m_LocalScale: {x: 0.7734404, y: 2.5570815, z: 2.5570815}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -101221,7 +101221,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: cf57f3caed5832648961c146834851ac, type: 2}
   m_BuildHeightMesh: 0
 --- !u!64 &885299849
 MeshCollider:
@@ -137618,7 +137618,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 93d106c175ccc2841b368a28c93ceb23,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.33
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93d106c175ccc2841b368a28c93ceb23,
         type: 3}
@@ -137628,7 +137628,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 93d106c175ccc2841b368a28c93ceb23,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 93d106c175ccc2841b368a28c93ceb23,
         type: 3}
