@@ -166404,7 +166404,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -212.00003, y: 12}
+  m_AnchoredPosition: {x: -212.00003, y: 14.37}
   m_SizeDelta: {x: 57.6, y: 21.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1400693735
@@ -166430,8 +166430,8 @@ MonoBehaviour:
   m_text: "I\u2019ve waited for this moment\nfor too long. \r\n\r\nMy heart is racing.
     \r\n\r\nToday is the day\nI finally kill the king. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c02d1e18c5520874fbfa936d81021a35, type: 2}
-  m_sharedMaterial: {fileID: -2160730356040262924, guid: c02d1e18c5520874fbfa936d81021a35,
+  m_fontAsset: {fileID: 11400000, guid: eca0315214b79534295218cf20a11502, type: 2}
+  m_sharedMaterial: {fileID: 5008081051463107916, guid: eca0315214b79534295218cf20a11502,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -166456,8 +166456,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3
-  m_fontSizeBase: 3
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -179044,7 +179044,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 4400
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &1516817848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241725,6 +241725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 740742315472083675, guid: 6e987ed47215b3a46af930a293e59f19,
+        type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2099923551052349037, guid: 6e987ed47215b3a46af930a293e59f19,
         type: 3}
